@@ -1,0 +1,24 @@
+*{
+
+}
+header{
+    font-size: 1rem;
+}
+header a{
+    display: inline-block;
+    display: flex;
+}
+main{
+    background-image: url(http://archive.worldskills.org/201503_WSC2015/files/2513/9029/3370/AS00106_-_Ponte_Estaiada.JPG);
+    height: 800px;
+}
+.buttom-cv {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-color: #7E459B;
+    padding: 8px 20px;
+    border-radius: 1rem;
+}

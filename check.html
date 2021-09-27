@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="file:///C:/Users/aninh/OneDrive/Imagens/Saved%20Pictures/logistica%20reversa.jpg.jpg">
+    <link rel="stylesheet" href="aulacheck.css">
+    <title>São Paulo</title>
+</head>
+<body>
+    <header>
+        <h1>São Paulo e turismo</h1>
+        <a href="#">Sobre</a>
+        <a href="#">Veja</a>
+        <p>Se inscreva no formulário abaixo para desfrutar de São Paulo</p>
+    </header>
+   <main>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Dados pessoais:</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" maxlength="100"placeholder="digite o nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="ex:seuemail@gmail.com">
+            <label for="tel">Telefone:</label>
+            <input type="telefone" name="telefone" id="telefone" placeholder="digite seu numero de telefone">
+            <label for="DN">Data de nascimento:</label>
+            <input type="datetime" name="data" id="data">
+            <input type="radio" name="idade" value="maiordeidade" id="maiordeidade">
+            <label for="maior idade">maior de 18</label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <input type="checkbox" name="turista" id="turista">
+                <label for="turista" name="turista" id="turista">Escolha</label>
+                <input type="checkbox" name="residente" id="residente">
+                <label for="checkbox" name="residente" id="residente">Residente</label>
+            </legend>
+            <fieldset>
+                <legend>
+                    <label for="pontoturistico">Ponto de Interesse</label>
+                    <select name="pontoturistico" id="pontoturistico">
+                        <option value="#">Escolha sua opção</option>
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="São Paulo">Sorocaba</option>
+                        <option value="São Paulo">Itapetininga</option>
+                    </select>
+                </legend>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="envar">Enviar</input>
+                <button type="reset">Limpar</button>
+            </fieldset>
+        </fieldset>
+    </form>
+   </main>
+   <footer>
+    <p>&reg;Todos os direitos reservados,2021</p>
+   </footer>
+</body>
+</html>
